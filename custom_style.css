@@ -1,5 +1,5 @@
 .bg-green {
-	background-color : #006400 !important
+	background-color : #000000 !important
 }
 .bg-lightgreen {
 	background-color : #98FB98 !important;
@@ -7,4 +7,45 @@
 
 .smaller_img {
 	width : 500px;
+}
+
+.green_fade {
+	 background-image: linear-gradient(#006600, white);
+}
+
+.overconsumption {
+	background-image: url('IMG_0011.png');
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: 100% 100%;
+  	position: relative;
+	height : 600px;
+}
+
+.page_header {
+	background-image: url('header.png');
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: 100% 100%;
+  	position: relative;
+}
+
+.neutral_bg {
+	background-image: url('neutral_bg.png');
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: 100% 100%;
+  	position: relative;
+}
+p, h3, h4, h5 {
+	font-family: 'Helvetica Neue';
+	font-weight: lighter;
+	font-style : italic;
+	
+}
+
+h1 {
+	font-size : 60px;
+	font-family : 'Courier New';
+	font-weight: 700
 }
