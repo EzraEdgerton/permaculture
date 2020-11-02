@@ -9,6 +9,10 @@
 	width : 500px;
 }
 
+.screen_width_img {
+	width: 100vw;
+}
+
 .green_fade {
 	 background-image: linear-gradient(#006600, white);
 }
@@ -61,15 +65,46 @@
   	background-size: 100% 100%;
   	position: relative;
 }
-p, h3, h4, h5 {
+h4, h5 {
 	font-family: 'Helvetica Neue';
 	font-weight: lighter;
 	font-style : italic;
 	
 }
 
+.white {
+	background-color: white
+}
+h3,p {
+	font-family: 'Helvetica Neue';
+	font-style : italic;
+}
+
 h1 {
 	font-size : 60px;
 	font-family : 'Courier New';
 	font-weight: 700
+}
+
+.test-abs {
+	position: absolute;
+	top: 0vh;
+	left: 0vh;
+}
+
+.legend {
+	position: absolute;
+	top: 1vh;
+	right: 5vw;
+	background-color: white;
+	margin: 12px;
+	padding: 20px;
+	z-index: 1;
+}
+.map_div {
+	height : 100vh;
+}
+
+.hidden {
+	display: none;
 }
