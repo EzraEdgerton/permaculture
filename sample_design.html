@@ -54,6 +54,8 @@
 
     <p class="white">This 2.4 acre site has has an intermittent rain-fed stream running through it. The stream is at the middle of a small valley microclimate, with slopes on either side. North of the stream is a mowed grass flat area and a more pronounced small south-facing hill that recieves sunlight. Near the top of this incline is a gazebo with picnic tables, a water spigot, a permanent grill and a number of large embedded rocks on the hillside. Around the gazebo and jungle jim are chinese magnolia and hemlock trees. A small brick-layed clearing set into the hill lies across the path from the gazebo with 2-ft walls holding in the soil around it and a free book library within. East from the gazebo, a gentle decline leads to a jungle-jim area with wood chipped ground and next to that a swing-set and a bench. East of that, sits a bench underneath a magnificent ancient elm. Reeds, cattails, and grasses all around the stream provide good habitat for goldfinch, sparrows, and ducks. There is a beautiful willow on the West end, near a gravel bridge, seen from the park entrance. Trees surround the park: Norway Maple, ash, mulberry, buckthorn and honeysuckle abound. Rabbits, squirrels, and sparrows use the vegetation for protection. </p>
     <p class="white">The site is in climactic zone 5b. According to <a href="https://websoilsurvey.sc.egov.usda.gov/App/WebSoilSurvey.aspx">websoilsurvey.gov</a> the soil is 40% Fayette silt loam, till plain, 9 to 14 percent slopes, 30% Downs silt loam, till plain, 2 to 5 percent slopes and 30% Colo-Ely complex, 0 to 5 percent slopes</p>
+
+     <p class="white">Iowa City recieves on average 37 inches of rain per year, and often during rainstorms this stream saturates the nearby ground.</p>
   </div>
 </div>
 <div class="row justify-content-center neutral_bg">
@@ -64,6 +66,7 @@
     <img src="images/site_1_4.JPG" class="image-fluid smaller_img"  alt="site 1">
     <img src="images/site_1_5.JPG" class="image-fluid smaller_img"  alt="site 1">-->
      <img src="map.png" class="image-fluid test-abs screen_width_img"  alt="site 1">
+      <img src="solarization.png" id="solarization-layer" class="image-fluid test-abs screen_width_img"  alt="site 1" >
     <img src="trees.png" id="trees-layer" class="image-fluid test-abs screen_width_img"  alt="site 1" >
     <img src="water.png" id="water-layer" class="image-fluid test-abs screen_width_img"  alt="site 1" >
     <img src="roads.png" id="roads-layer" class="image-fluid test-abs screen_width_img"  alt="siteroads">
@@ -71,6 +74,10 @@
     <img src="structures.png" id="structures-layer" class="image-fluid test-abs screen_width_img"  alt="siteroads">
        <div class="legend">
          <h3 class="" id="legend_title">Toggle Layers</h3>
+         <div class=ml-4>
+          <input type="checkbox" class="form-check-input" id="solarization" class="layercheck" checked>
+          <label class="form-check-label" for="solarization">Solarization Layer</label>
+        </div>
          <div class=ml-4>
           <input type="checkbox" class="form-check-input" id="trees" class="layercheck" checked>
           <label class="form-check-label" for="trees">Trees Layer</label>
@@ -85,11 +92,11 @@
         </div>
         <div class=ml-4>
           <input type="checkbox" class="form-check-input" id="paths" class="layercheck" checked>
-          <label class="form-check-label" for="paths">paths Layer</label>
+          <label class="form-check-label" for="paths">Paths Layer</label>
         </div>
         <div class=ml-4>
           <input type="checkbox" class="form-check-input" id="structures" class="layercheck" checked>
-          <label class="form-check-label" for="structures">structures Layer</label>
+          <label class="form-check-label" for="structures">Structures Layer</label>
         </div>
         </div>
     </div>
@@ -136,8 +143,10 @@
     <br>
     <h4 class="white">Main Design</h4>
     <p class="white" align="left">
-     Before getting into specifics, I'm trying to establish a series of zones such that all participants in the environment will be benefitted by the changes. Ideally this will be a system where not too much labor will have to be expended to sustain it once it is established. It seeks not to make huge alterations to the land, but change the way it produces. First, I would like to establish a windbreak on the eastern edge, this will provide additional bird, small mammal habitat and give the park a sense of seclusion from the road. Then, along the path going north-south, I would like to replace the grass field with native flowers and edible herbs that benefit from full sun and very moist soil. Just past them up the hill near the gazebo I would like to grow and establish more fruit trees--apple and pair. Replacing some of the honeysuckle in the understory with more productive berry plants would be costly but ideal. I would keep a lawny area with lots of clover and grasses near the jungle jim and bench to provide a lounging and play area. Behind the bench and under the elm, next to the willow, I would like to build a more secluded keyhole garden with another bench. Across the stream, where it is drier, I would like to plant primarily native grasses and good pollinator plants. Additionally, I propose building a wood-chipped path through the new herbaceous field that leads both to the gazebo, the spigot, and the playground, and provides a framing view for the willow at the end of the park.
+     Before getting into specifics, this plan will establish a series of use areas such that all participants in the environment will benefit from. Ideally this will be a system where minimal labor will have to be expended to sustain it once established. It seeks not to make major alterations to the land, but to simply change the way the plants growing there provide ecosystem services. It should provide food and aesthetic pleasure, pollination, temperature regulation, and a host of other benefits. It must also take into account the changing climate, that habitability zones are moving northward quickly, and that in the near future drought and extreme flooding will be more frequent.</p>
+     <p class="white" align="left"> First, I would like to establish a windbreak on the eastern edge, this will provide additional bird, small mammal habitat and give the park a sense of seclusion from the roads. Then, along the path going north-south, I would like to replace the grass field with native flowers and edible herbs that benefit from full sun and very moist soil. Just past them up the hill near the gazebo I would like to grow and establish more fruit trees--apple and pear. Replacing some of the honeysuckle in the understory with more productive berry plants would be costly but ideal. I would keep a lawny area with lots of clover and grasses near the jungle jim and bench to provide a lounge and play area. Behind the bench and under the elm, next to the willow, I would like to build a more secluded keyhole garden with another bench. Across the stream, where it is drier, I would like to plant primarily native grasses and good pollinator plants. Additionally, I propose building a wiggling wood-chipped path through the new herbaceous field that leads both to the gazebo, the spigot, and the playground, and provides a framing view for the willow at the end of the park.
     </p>
+    <p class="white" style="font-weight: bold">The following maps explain how these changes will be implemented by season, and details of the separate features.</p>
   </div>
 </div>
 
@@ -149,12 +158,118 @@
     <img src="images/site_1_4.JPG" class="image-fluid smaller_img"  alt="site 1">
     <img src="images/site_1_5.JPG" class="image-fluid smaller_img"  alt="site 1">-->
      <img src="map.png" class="image-fluid test-abs screen_width_img"  alt="site 1">
-
-    <img src="proposal_1.png" id="uses-layer" class="image-fluid test-abs screen_width_img"  alt="site 1" >
     <img src="proposal_path.png" id="uses-layer" class="image-fluid test-abs screen_width_img"  alt="site 1" >
-  
+    <img src="proposal_1.png" id="uses-layer" class="image-fluid test-abs screen_width_img"  alt="site 1" >
   </div>
   </div>
+
+ <div class="row justify-content-center white">
+  <div class="col-10" align="center" >
+    <br>
+    <h1 style="font-style: underline">Year to Year Plan</h1>
+  </div>
+</div>
+
+ <div class="row justify-content-center neutral_bg">
+  <div class="col-10" align="center" >
+    <br>
+    <h3 class="white">Year 1: Legacy Features</h3>
+    <br>
+  </div>
+  <div class="col-8" align="center">
+    <h4 class="white accordion" id="shed">Shed, Tools, Compost</h4>
+    <div id="shed_div" class="bg_image row hidden" align="left">
+      <div class="col-5">
+        <h4>Shed</h4>
+        <p>Basic plastic shed, can be delivered from Lowes apparently, that or build with  2x4 and some metal sheeting? 800 for plastic, estimated $800 </p>
+        <h4>Tools</h4>
+         <p>Will probably need 2 each of the following: shovels, rakes, buckets, wheelbarrows, clippers, trowels, gloves, containers</p>
+
+        <h4>Compost</h4>
+        <p>Just create a simple wood palette box compost next to the shed, although do composts need sunlight?</p>
+      </div>
+    </div>
+    <h4 class="white accordion" id="path">Path</h4>
+    <div id="path_div" class="bg_image row hidden">
+      <div class="col-12" align="center">
+        <h4>Woodchip Path</h4>
+        <p>Have some amount of cubic feet of woodchips delivered and gather cardboard, lay out cardboard in a path with many curves along the grassy area, ending at the clover and buffalo grass playground</p>
+        <p>Next year well be planting along this path</p>
+      </div>
+    </div>
+    <h4 class="white accordion" id="windbreak">Windbreak</h4>
+    <div id="windbreak_div" class="bg_image row hidden">
+<div class="col-6">
+        <h4>Planting</h4>
+        <p></p>
+      </div>
+    </div>
+    <h4 class="white accordion" id="orchard">Fruit Trees & Swales</h4>
+    <div id="orchard_div" class="bg_image row hidden">
+<div class="col-6">
+        <p>Hi There</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+ <div class="row justify-content-center neutral_bg">
+  <div class="col-10" align="center" >
+    <br>
+    <h3 class="white">Year 2: Establishment of Riparian area & Shade Garden</h3>
+    <br>
+  </div>
+  <div class="col-8" align="center">
+    <h4 class="white accordion" id="riparian">Riparian Area</h4>
+    <div id="riparian_div" class="bg_image row hidden">
+<div class="col-6">
+        <p>Hi There</p>
+      </div>
+    </div>
+    <h4 class="white accordion" id="keyhole">Shade-tolerant Keyhole Garden</h4>
+    <div id="keyhole_div" class="bg_image row hidden">
+<div class="col-6">
+        <p>Hi There</p>
+      </div>
+    </div>
+    <h4 class="white accordion" id="grasses">Grasses, wildflowers</h4>
+    <div id="grasses_div" class="bg_image row hidden">
+<div class="col-6">
+        <p>Hi There</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <div class="row justify-content-center neutral_bg">
+  <div class="col-10" align="center" >
+    <br>
+    <h3 class="white">Year 3: Invasive Replacement, Adjustments</h3>
+    <br>
+  </div>
+  <div class="col-8" align="center">
+    <h4 class="white accordion" id="invasive">Invasive areas</h4>
+    <div id="invasive_div" class="bg_image row hidden">
+<div class="col-6">
+        <p>Hi There</p>
+      </div>
+    </div>
+    <h4 class="white accordion" id="long_term">Long term and Evaluation</h4>
+    <div id="long_term_div" class="bg_image row hidden">
+<div class="col-6">
+        <p>Hi There</p>
+      </div>
+    </div>
+      
+   
+      
+  </div>
+</div>
+
+
+
+
 
 
 </div>
