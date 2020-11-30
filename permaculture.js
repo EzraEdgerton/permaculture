@@ -46,11 +46,39 @@ $('#solarization').on("click", toggler)
 
 
 let features_ids = ["shed", "path", "windbreak", "orchard", "riparian", "keyhole", "grasses", "invasive", "long_term"]
-
+let special_ids = ["windbreak", "riparian", "orchard"]
 features_ids.forEach(function(d){
 	$("#" + d).on("click", feature_toggler);
 })
 
+function windowresize(){
+	console.log(window.innerWidth)
+	if (window.innerWidth < 550){
+		console.log("hi")
+		features_ids.forEach(function(d){
+			$("#" + d + "_div").removeClass("bg_image")
+		})
+	}
+	else if (window.innerWidth < 1300){
+		features_ids.forEach(function(d){
+			$("#" + d + "_div").addClass("bg_image")
+		})
+		special_ids.forEach(function(d){
+			d3.select("#" + d + "_div").style("height", 750)
+		})
+
+	}
+	else {
+		features_ids.forEach(function(d){
+			$("#" + d + "_div").addClass("bg_image")
+		})
+	}
+
+}
+
+window.onresize = windowresize
+
+windowresize()
 }
 
 wrapper()
